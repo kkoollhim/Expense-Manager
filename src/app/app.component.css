@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    background-color: aqua;
+    padding: 0;
+    margin: 0;
+    color: darkslategray;
+}
+
+.main{
+    display: flex;
+}
+.LHS{
+    flex: 50%;
+    background-color: rgb(160, 231, 231);
+}
+
+.RHS{
+    flex: 50%;
+    background-color: #f5f5f5;
+}
+
+.example-tree-invisible {
+    display: none;
+  }
+  
+.example-tree ul,
+.example-tree li {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+  }
